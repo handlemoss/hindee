@@ -1,5 +1,5 @@
-/*=============== TRICK OR TREAT ===============*/
-.trick{
+/*=============== bounceeenomics OR TREAT ===============*/
+.bounceeenomics{
     &__container{
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
@@ -13,11 +13,11 @@
         text-align: center;
         overflow: hidden;
 
-        &:hover .trick__img{
+        &:hover .bounceeenomics__img{
             transform: translateY(-.5rem);
         }
 
-        &:hover .trick__button{
+        &:hover .bounceeenomics__button{
             right: 0;
         }
     }
