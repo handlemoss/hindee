@@ -431,14 +431,14 @@ button{
   animation: floating 2s ease-in-out infinite;
 }
 
-/*=============== TRICK OR TREAT ===============*/
-.trick__container{
+/*=============== bounceeenomics OR TREAT ===============*/
+.bounceeenomics__container{
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding-top: 1rem;
 }
 
-.trick__content{
+.bounceeenomics__content{
   position: relative;
   background: var(--container-color);
   border-radius: 1rem;
@@ -447,29 +447,29 @@ button{
   overflow: hidden;
 }
 
-.trick__img{
+.bounceeenomics__img{
   width: 90px;
   transition: .3s;
 }
 
-.trick__subtitle,
-.trick__price{
+.bounceeenomics__subtitle,
+.bounceeenomics__price{
   display: block;
 }
 
-.trick__subtitle{
+.bounceeenomics__subtitle{
   font-size: var(--smaller-font-size);
   margin-bottom: var(--mb-0-5);
 }
 
-.trick__title,
-.trick__price{
+.bounceeenomics__title,
+.bounceeenomics__price{
   color: var(--title-color);
   font-weight: var(--font-medium);
   font-size: var(--normal-font-size);
 }
 
-.trick__button{
+.bounceeenomics__button{
   display: inline-flex;
   padding: .5rem;
   border-radius: .25rem .25rem .75rem .25rem;
@@ -478,16 +478,16 @@ button{
   bottom: 0;
 }
 
-.trick__icon{
+.bounceeenomics__icon{
   font-size: 1.25rem;
   color: var(--title-color);
 }
 
-.trick__content:hover .trick__img{
+.bounceeenomics__content:hover .bounceeenomics__img{
   transform: translateY(-.5rem);
 }
 
-.trick__content:hover .trick__button{
+.bounceeenomics__content:hover .bounceeenomics__button{
   right: 0;
 }
 
@@ -773,7 +773,7 @@ button{
   }
 
   .category__container,
-  .trick__container{
+  .bounceeenomics__container{
     grid-template-columns: .8fr;
     justify-content: center;
   }
@@ -851,7 +851,7 @@ button{
     width: 250px;
   }
 
-  .trick__container{
+  .bounceeenomics__container{
     grid-template-columns: repeat(3, 200px);
     justify-content: center;
     gap: 2rem;
@@ -951,16 +951,16 @@ button{
     padding-right: 2rem;
   }
 
-  .trick__container{
+  .bounceeenomics__container{
     gap: 3.5rem;
   }
-  .trick__content{
+  .bounceeenomics__content{
     border-radius: 1.5rem;
   }
-  .trick__img{
+  .bounceeenomics__img{
     width: 110px;
   }
-  .trick__title{
+  .bounceeenomics__title{
     font-size: var(--h3-font-size);
   }
 
