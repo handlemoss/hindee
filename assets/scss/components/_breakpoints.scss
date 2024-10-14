@@ -18,7 +18,7 @@
     }
 
     .category__container,
-    .trick__container{
+    .bounceeenomics__container{
         grid-template-columns: .8fr;
         justify-content: center;
     }
@@ -106,7 +106,7 @@
         }
     }
 
-    .trick{
+    .bounceeenomics{
         &__container{
             grid-template-columns: repeat(3, 200px);
             justify-content: center;
@@ -219,7 +219,7 @@
         }
     }
 
-    .trick{
+    .bounceeenomics{
         &__container{
             gap: 3.5rem;
         }
