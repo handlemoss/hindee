@@ -1,5 +1,5 @@
-/*=============== NEW ARRIVALS ===============*/
-.new{
+/*=============== howtobuy ===============*/
+.howtobuy{
     &__container{
         padding-top: 1rem;
     }
@@ -17,11 +17,11 @@
         text-align: center;
         overflow: hidden;
 
-        &:hover .new__img{
+        &:hover .howtobuy__img{
             transform: translateY(-.5rem);
         }
 
-        &:hover .new__button{
+        &:hover .howtobuy__button{
             right: 0;
         }
     }
