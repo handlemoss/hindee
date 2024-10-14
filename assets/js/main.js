@@ -49,7 +49,7 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== NEW SWIPER ===============*/
-let newSwiper = new Swiper(".new-swiper", {
+let newSwiper = new Swiper(".howtobuy-swiper", {
     centeredSlides: true,
     slidesPerView: "auto",
     loop: 'true',
@@ -93,7 +93,7 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-sr.reveal(`.home-swiper, .new-swiper, .newsletter__container`)
+sr.reveal(`.home-swiper, .howtobuy-swiper, .newsletter__container`)
 sr.reveal(`.category__data, .trick__content, .footer__content`,{interval: 100})
 sr.reveal(`.about__data, .discount__img`,{origin: 'left'})
 sr.reveal(`.about__img, .discount__data`,{origin: 'right'})
